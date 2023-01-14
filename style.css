@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #f6e9f998;
+}
+.recent{
+    background-color: #F6E9F9;
+    border: 9px solid white;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;  
+    padding: 20px;
+}
+.recent a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #2A325E;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: 10px;
+    
+}
+a:hover{
+    background-color: white;
+    transition: .5s ease;
+    
+
+}
+
+.tags{
+    background-color: #F6E9F9;
+    border: 9px solid white;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;  
+    padding: 20px;
+}
+.tags a{
+    text-decoration: none;
+    background-color: white;
+    color: #2A325E;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.tags a:hover{
+    background-color: #2A325E;
+    color: white;
+    transition: .5s ease;
+    
+
+}
+
+.search{
+    background-color: #F6E9F9;
+    border: 9px solid white;
+    border-radius: 9px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    padding: 25px;
+
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 15px 15px 35px;
+    margin-right: 10px;
+}
+
+button{
+    background-color: #2A325E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+ion-icon{
+    font-size: 17px;
+    margin-right: -35px;
+    margin-bottom: -3px;
+}
